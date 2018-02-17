@@ -1,2 +1,8 @@
+# FEUP - MIEIC
+
+2º Year - 2º Semester
+
 # SOPE1718
-Operative System
+SOPE - Operating Systems
+
+Programming language used: C

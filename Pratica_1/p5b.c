@@ -31,7 +31,7 @@ int main(int argc, char* argv[], char* envp[])
 			p = envp[n];
 
 		}
-		printf("Hello %s!\n",&p[5]); // endereço da sexta posição
+		printf("Hello %s!\n",&p[5]); // address to 6th element
 	}
 	else{
 		printf("Hello %s!\n", argv[1]);

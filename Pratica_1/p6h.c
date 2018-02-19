@@ -52,7 +52,7 @@ int main(int argc, char * argv[])
 		fclose( dst );
 	}
 	else{
-		printf("usage: nome_do_executável file1 file2\n");
+		printf("usage: nome_do_executável file1 file2);
 	}
 
 	exit(0);  // zero é geralmente indicativo de "sucesso"

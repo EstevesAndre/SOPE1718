@@ -8,8 +8,8 @@
 // PROGRAMA p6a.c
 
 /*
- * 	b) "infile.txt" doesn't exist , so the program exists ..
- * 	c) $ echo $? // output = 1
+ *  b) "infile.txt" doesn't exist , so the program exists ..
+ *  c) $ echo $? // output = 1
  *
  *	f) created the infile.txt file and run the program, outfile.txt file was created with the same content
  *
@@ -24,30 +24,30 @@
 
 int main(void)
 {
-	FILE *src, *dst;
-	char buf [BUF_LENGTH];
+								FILE *src, *dst;
+								char buf [BUF_LENGTH];
 
-	if ( ( src = fopen( "infile.txt", "r" ) ) == NULL )
-	{
-		printf("%d\n", errno);
+								if ( ( src = fopen( "infile.txt", "r" ) ) == NULL )
+								{
+																printf("%d\n", errno);
 
-		exit(1);
-	}
+																exit(1);
+								}
 
-	if ( ( dst = fopen( "outfile.txt", "w" ) ) == NULL )
-	{
-		printf("%d\n", errno);
+								if ( ( dst = fopen( "outfile.txt", "w" ) ) == NULL )
+								{
+																printf("%d\n", errno);
 
-		exit(2);
-	}
+																exit(2);
+								}
 
-	while( ( fgets( buf, BUF_LENGTH, src ) ) != NULL )
-	{
-		fputs( buf, dst );
-	}
-	fclose( src );
-	fclose( dst );
+								while( ( fgets( buf, BUF_LENGTH, src ) ) != NULL )
+								{
+																fputs( buf, dst );
+								}
+								fclose( src );
+								fclose( dst );
 
 
-	exit(0);  // zero é geralmente indicativo de "sucesso"
+								exit(0); // zero é geralmente indicativo de "sucesso"
 }

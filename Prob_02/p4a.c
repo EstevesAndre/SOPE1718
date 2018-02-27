@@ -4,6 +4,8 @@
 
 #define BUFFER_SIZE 512
 
+// use cat to see the txt file (terminal: $ cat output.txt)
+
 int main(int argc, char *argv[])
 {
         int file, nr, nw;

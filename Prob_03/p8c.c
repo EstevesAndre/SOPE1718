@@ -3,6 +3,17 @@
 #include <unistd.h>
 #include <stdlib.h>
 
+// pathname of the command "ls"
+// $ which ls
+// /bin/ls
+
+//using mc
+
+// $ ./mc p8a.c  - compiles p8a.c file and creates p8a (same name)
+
+// to see output
+// $ ./p8a
+
 int main(int argc, char *argv[], char *envp[])
 {
         pid_t pid;
@@ -20,6 +31,7 @@ int main(int argc, char *argv[], char *envp[])
         }
         else if(pid == 0)
         {
-                //execlp("ls", "ls", "-laR")
+                char * arguments[] = {"ls", "-laR", argv[1], NULL};
+                execvp("ls", arguments); // v - argument - vector
         }
 }

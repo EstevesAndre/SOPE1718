@@ -1,0 +1,29 @@
+My child is going to execute command"ls -laR ../Prob_03"
+../Prob_03:
+total 248
+drwxrwxr-x 2 andre andre   4096 Mar  7 10:47 .
+drwxrwxr-x 7 andre andre   4096 Fev 28 09:08 ..
+-rwxrwxr-x 1 andre andre   8752 Fev 28 10:42 mc
+-rwxrwxr-x 1 andre andre   8904 Mar  7 10:45 p10
+-rw-rw-r-- 1 andre andre   1042 Mar  7 10:45 p10.c
+-rw-rw-r-- 1 andre andre    554 Fev 28 09:36 p1.c
+-rw-rw-r-- 1 andre andre    416 Fev 28 09:25 p2ab.c
+-rw-rw-r-- 1 andre andre    326 Fev 28 09:29 p2c.c
+-rw-rw-r-- 1 andre andre    328 Fev 28 09:29 p2d.c
+-rw-rw-r-- 1 andre andre    768 Fev 28 09:34 p3.c
+-rw-rw-r-- 1 andre andre    433 Fev 28 09:40 p4a.c
+-rw-rw-r-- 1 andre andre    718 Fev 28 09:48 p4b.c
+-rw-rw-r-- 1 andre andre    810 Fev 28 10:00 p5.c
+-rw-rw-r-- 1 andre andre   1279 Fev 28 10:18 p6a.c
+-rw-rw-r-- 1 andre andre   1354 Fev 28 10:33 p6b.c
+-rw-rw-r-- 1 andre andre   1532 Fev 28 10:38 p6c.c
+-rw-rw-r-- 1 andre andre    325 Fev 28 10:47 p7.c
+-rw-rw-r-- 1 andre andre    696 Mar  7 09:45 p8a.c
+-rw-rw-r-- 1 andre andre    606 Mar  7 09:42 p8b.c
+-rw-rw-r-- 1 andre andre    786 Mar  7 09:50 p8c.c
+-rw-rw-r-- 1 andre andre    836 Mar  7 09:52 p8d.c
+-rw-rw-r-- 1 andre andre    843 Mar  7 09:57 p8e.c
+-rw-rw-r-- 1 andre andre    746 Mar  7 10:23 p9a.c
+-rw-rw-r-- 1 andre andre   1298 Mar  7 10:23 p9b.c
+-rw-rw-r-- 1 andre andre 133155 Fev 28 09:08 Prob_03.pdf
+-rw-r--r-- 1 andre andre     57 Mar  7 10:47 txt.txt

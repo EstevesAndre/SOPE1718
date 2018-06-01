@@ -54,7 +54,7 @@ int main()
                 printf("Error registering handler 1\n");
         }
 
-        abort();
+        //  abort();
 
         printf("Main done!\n");
 

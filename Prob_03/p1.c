@@ -17,6 +17,7 @@ int main()
         }
         else
         {
+                sleep(2);
                 printf("PID = %d; PPID = %d\n", getpid(), getppid());
                 global--;
                 local++;

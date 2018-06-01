@@ -8,14 +8,14 @@
 /*
  * gcc -o name filename.c	// compile
  *
- * ./name  					// to see output
+ * ./name       // to see output
  *
- * echo $?  				// to see the return of the function
+ * echo $?      // to see the return of the function
  */
 
 /*
  * input, more than 1 name (Andre Esteves)
- * 	./Prob_2 Andre\ Esteves   	// "\ " code for a space in a C-string
+ *  ./Prob_2 Andre\ Esteves    // "\ " code for a space in a C-string
  *
  */
 
@@ -24,7 +24,7 @@
 int main(int argc, char* argv[])
 {
 
-	printf("Hello %s!\n", argv[1]);
+								printf("Hello %s!\n", argv[1]);
 
-	return 0;
+								return 0;
 }
